@@ -1,0 +1,6 @@
+library(tidyverse)
+library(ggplot2)
+o<-read.csv(file = "basededatos1", header = TRUE, sep = ",")
+str(o)
+S<-plot(o$LAI_m2,o$Altura_cm)
+setwd("D:/Datos/Escritorio/Osyris_lanceolata_proyecto/Osyris_lanceolata")

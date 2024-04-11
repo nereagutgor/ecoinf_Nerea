@@ -69,6 +69,7 @@ En la siguiente gráfica se puede observar como las variables **altura** y **LAI
 
 ## Distribución poblacional
 La distribución poblacional se ha obtenido con el siguiente código:
+
 install.packages("devtools")
 devtools::install_github("Pakillo/FloraIberica")
 library(FloraIberica)

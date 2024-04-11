@@ -68,4 +68,9 @@ plot(o)
 En la siguiente gráfica se puede observar como las variables **altura** y **LAI** no presentan correlación. El valor del índice de área foliar no depende de la altura del individuo.
 
 ## Distribución poblacional
-![Distribución poblacional de *Osyris lanceolata*](Rplot.png)
+La distribución poblacional se ha obtenido con el siguiente código:
+install.packages("devtools")
+devtools::install_github("Pakillo/FloraIberica")
+library(FloraIberica)
+map_distribution(genus = "Osyris", species = "lanceolata", size = 0.9)
+![Distribución poblacional de *Osyris lanceolata* en la península ibérica](Rplot.png)

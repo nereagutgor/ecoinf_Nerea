@@ -3,8 +3,9 @@ title: "Rmd Osyris lanceolata"
 author: "Nerea Gutiérrez-Gordillo"
 date: "2024-01-20"
 output:
-  word_document:
+  html_document:
     toc: TRUE
+    number_sections: TRUE
 ---
 
 \pagebreak
@@ -21,7 +22,7 @@ El siguiente proyecto pretende estudiar la **dinámica poblacional** de [*Osyris
 
 *Osyris lanceolata* se trata de una especie de planta hemiparásita, capaz de parasitar a otras especies a nivel del xilema, obteniendo de los hospedadores nutrientes, sales minerales y agua por medio de un órgano especializado llamado [**haustorio**](https://idus.us.es/handle/11441/53565).
 
-![*Osyris lanceolata* Hocht. & Steud.](imagen%20osyris%20lanceolata.png){withd="60%"}
+![*Osyris lanceolata* Hocht. & Steud.](imagen osyris lanceolata.png){withd="60%"}
 
 La formación del haustorio es potenciada por moléculas de señal generadas por el huésped, denominadas factores de inducción del haustorio (HIF), algunas de ellas son los compuestos fenólicos y quinonas [@luna2002parasitismo]. Dicha conexión le permite además, accionar un mecanismo secundario de defensa, ya que por medio de la relación íntima establecida, en caso de ataque a uno de sus hospedadores, las **ROS** (especies reactivas del oxígeno) serán capaces de llegar hasta el ejemplar de *Osyris lanceolata*, permitiéndole preparase frente al ataque previamente.
 
